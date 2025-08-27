@@ -1,0 +1,894 @@
+{
+  "report_info": {
+    "created_by": "IsItSecure",
+    "project_url": "https://github.com/chrismat-05/IsItSecure"
+  },
+  "timestamp": "2025-08-27T11:31:11.145289",
+  "version": "1.0.0",
+  "results": [
+    {
+      "index": 1,
+      "analysis": {
+        "password": "password123",
+        "length": 11,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 11
+          },
+          "complexity": {
+            "score": 50,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 56.86917501586544,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": true,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 8,
+          "uppercase_count": 0,
+          "digit_count": 3,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Common password found in dictionary",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 62,
+        "risk_level": "Medium"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 918824,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:03.664540"
+    },
+    {
+      "index": 2,
+      "analysis": {
+        "password": "admin",
+        "length": 5,
+        "strength": {
+          "length": {
+            "score": 0,
+            "feedback": "Very short",
+            "length": 5
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 23.50219859070546,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 5,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Too short (less than 8 characters)",
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters",
+          "May contain personal information"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 24,
+        "risk_level": "Critical"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 36037720,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:04.161527"
+    },
+    {
+      "index": 3,
+      "analysis": {
+        "password": "letmein",
+        "length": 7,
+        "strength": {
+          "length": {
+            "score": 30,
+            "feedback": "Short length",
+            "length": 7
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 32.90307802698764,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 7,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Too short (less than 8 characters)",
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 36,
+        "risk_level": "Critical"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 480232,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:04.752192"
+    },
+    {
+      "index": 4,
+      "analysis": {
+        "password": "123456",
+        "length": 6,
+        "strength": {
+          "length": {
+            "score": 30,
+            "feedback": "Short length",
+            "length": 6
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 20,
+            "feedback": "Common password detected, Predictable pattern detected"
+          }
+        },
+        "entropy": 19.931568569324174,
+        "composition": {
+          "has_lowercase": false,
+          "has_uppercase": false,
+          "has_digits": true,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 0,
+          "uppercase_count": 0,
+          "digit_count": 6,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Too short (less than 8 characters)",
+          "Common password found in dictionary",
+          "Contains predictable pattern",
+          "Missing letter characters",
+          "No special characters",
+          "Contains keyboard pattern (e.g., qwerty, 12345)"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 26,
+        "risk_level": "Critical"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 132211338,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:05.201798"
+    },
+    {
+      "index": 5,
+      "analysis": {
+        "password": "qwerty",
+        "length": 6,
+        "strength": {
+          "length": {
+            "score": 30,
+            "feedback": "Short length",
+            "length": 6
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 28.202638308846552,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 6,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Too short (less than 8 characters)",
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters",
+          "Contains keyboard pattern (e.g., qwerty, 12345)"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 34,
+        "risk_level": "Critical"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 12491701,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:05.731565"
+    },
+    {
+      "index": 6,
+      "analysis": {
+        "password": "MyStr0ng!P@ssw0rd",
+        "length": 17,
+        "strength": {
+          "length": {
+            "score": 100,
+            "feedback": "Excellent length",
+            "length": 17
+          },
+          "complexity": {
+            "score": 100,
+            "feedback": "High complexity"
+          },
+          "uniqueness": {
+            "score": 100,
+            "feedback": "Appears unique"
+          }
+        },
+        "entropy": 111.42801047851984,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": true,
+          "has_digits": true,
+          "has_symbols": true,
+          "has_spaces": false,
+          "lowercase_count": 10,
+          "uppercase_count": 3,
+          "digit_count": 2,
+          "symbol_count": 2
+        },
+        "weaknesses": [],
+        "suggestions": [
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 100,
+        "risk_level": "Low"
+      },
+      "breach_data": {
+        "is_breached": false,
+        "breach_count": 0,
+        "risk_level": "Safe"
+      },
+      "timestamp": "2025-08-27T11:31:06.214325"
+    },
+    {
+      "index": 7,
+      "analysis": {
+        "password": "Blue_Tiger!82",
+        "length": 13,
+        "strength": {
+          "length": {
+            "score": 80,
+            "feedback": "Good length",
+            "length": 13
+          },
+          "complexity": {
+            "score": 100,
+            "feedback": "High complexity"
+          },
+          "uniqueness": {
+            "score": 100,
+            "feedback": "Appears unique"
+          }
+        },
+        "entropy": 85.20965507180928,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": true,
+          "has_digits": true,
+          "has_symbols": true,
+          "has_spaces": false,
+          "lowercase_count": 7,
+          "uppercase_count": 2,
+          "digit_count": 2,
+          "symbol_count": 2
+        },
+        "weaknesses": [],
+        "suggestions": [
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 94,
+        "risk_level": "Low"
+      },
+      "breach_data": {
+        "is_breached": false,
+        "breach_count": 0,
+        "risk_level": "Safe"
+      },
+      "timestamp": "2025-08-27T11:31:06.795372"
+    },
+    {
+      "index": 8,
+      "analysis": {
+        "password": "password",
+        "length": 8,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 8
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 37.603517745128734,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 8,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 47,
+        "risk_level": "High"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 22364607,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:07.272505"
+    },
+    {
+      "index": 9,
+      "analysis": {
+        "password": "12345678",
+        "length": 8,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 8
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 70,
+            "feedback": "Predictable pattern detected"
+          }
+        },
+        "entropy": 26.575424759098897,
+        "composition": {
+          "has_lowercase": false,
+          "has_uppercase": false,
+          "has_digits": true,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 0,
+          "uppercase_count": 0,
+          "digit_count": 8,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Contains predictable pattern",
+          "Missing letter characters",
+          "No special characters",
+          "Contains keyboard pattern (e.g., qwerty, 12345)"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 47,
+        "risk_level": "High"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 41952538,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:07.790587"
+    },
+    {
+      "index": 10,
+      "analysis": {
+        "password": "welcome123",
+        "length": 10,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 10
+          },
+          "complexity": {
+            "score": 50,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 100,
+            "feedback": "Appears unique"
+          }
+        },
+        "entropy": 51.69925001442312,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": true,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 7,
+          "uppercase_count": 0,
+          "digit_count": 3,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 70,
+        "risk_level": "Medium"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 359752,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:08.277828"
+    },
+    {
+      "index": 11,
+      "analysis": {
+        "password": "sunshine",
+        "length": 8,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 8
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 37.603517745128734,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 8,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 47,
+        "risk_level": "High"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 738904,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:08.809655"
+    },
+    {
+      "index": 12,
+      "analysis": {
+        "password": "football",
+        "length": 8,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 8
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 37.603517745128734,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 8,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 47,
+        "risk_level": "High"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 803515,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:09.250042"
+    },
+    {
+      "index": 13,
+      "analysis": {
+        "password": "charlie",
+        "length": 7,
+        "strength": {
+          "length": {
+            "score": 30,
+            "feedback": "Short length",
+            "length": 7
+          },
+          "complexity": {
+            "score": 20,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 32.90307802698764,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": false,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 7,
+          "uppercase_count": 0,
+          "digit_count": 0,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Too short (less than 8 characters)",
+          "Common password found in dictionary",
+          "No numbers included",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Add numbers",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 36,
+        "risk_level": "Critical"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 562022,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:09.699568"
+    },
+    {
+      "index": 14,
+      "analysis": {
+        "password": "aa123456",
+        "length": 8,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 8
+          },
+          "complexity": {
+            "score": 50,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 41.3594000115385,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": true,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 2,
+          "uppercase_count": 0,
+          "digit_count": 6,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Common password found in dictionary",
+          "No special characters",
+          "Contains keyboard pattern (e.g., qwerty, 12345)"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 57,
+        "risk_level": "High"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 1178748,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:10.191486"
+    },
+    {
+      "index": 15,
+      "analysis": {
+        "password": "trustno1",
+        "length": 8,
+        "strength": {
+          "length": {
+            "score": 60,
+            "feedback": "Adequate length",
+            "length": 8
+          },
+          "complexity": {
+            "score": 40,
+            "feedback": "Low complexity"
+          },
+          "uniqueness": {
+            "score": 50,
+            "feedback": "Common password detected"
+          }
+        },
+        "entropy": 41.3594000115385,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": false,
+          "has_digits": true,
+          "has_symbols": false,
+          "has_spaces": false,
+          "lowercase_count": 7,
+          "uppercase_count": 0,
+          "digit_count": 1,
+          "symbol_count": 0
+        },
+        "weaknesses": [
+          "Common password found in dictionary",
+          "No special characters"
+        ],
+        "suggestions": [
+          "Increase length to at least 12 characters",
+          "Add uppercase letters",
+          "Include special characters (!@#$%^&*)",
+          "Increase randomness - avoid predictable patterns",
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 54,
+        "risk_level": "High"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 507660,
+        "risk_level": "Critical"
+      },
+      "timestamp": "2025-08-27T11:31:10.673152"
+    },
+    {
+      "index": 16,
+      "analysis": {
+        "password": "RandomSecure!Pass2024",
+        "length": 21,
+        "strength": {
+          "length": {
+            "score": 100,
+            "feedback": "Excellent length",
+            "length": 21
+          },
+          "complexity": {
+            "score": 100,
+            "feedback": "High complexity"
+          },
+          "uniqueness": {
+            "score": 70,
+            "feedback": "Predictable pattern detected"
+          }
+        },
+        "entropy": 137.64636588523038,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": true,
+          "has_digits": true,
+          "has_symbols": true,
+          "has_spaces": false,
+          "lowercase_count": 13,
+          "uppercase_count": 3,
+          "digit_count": 4,
+          "symbol_count": 1
+        },
+        "weaknesses": [
+          "Contains predictable pattern",
+          "May contain personal information"
+        ],
+        "suggestions": [
+          "Avoid common passwords and patterns",
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 94,
+        "risk_level": "Low"
+      },
+      "breach_data": {
+        "is_breached": false,
+        "breach_count": 0,
+        "risk_level": "Safe"
+      },
+      "timestamp": "2025-08-27T11:31:11.117295"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+node_modules
+.env
+isitsecure.egg-info/
+__pycache__/

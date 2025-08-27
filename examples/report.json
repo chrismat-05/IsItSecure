@@ -1,0 +1,56 @@
+{
+  "report_info": {
+    "created_by": "IsItSecure",
+    "project_url": "https://github.com/chrismat-05/IsItSecure"
+  },
+  "timestamp": "2025-08-27T11:31:14.068148",
+  "version": "1.0.0",
+  "results": [
+    {
+      "analysis": {
+        "password": "YourPassword123!",
+        "length": 16,
+        "strength": {
+          "length": {
+            "score": 100,
+            "feedback": "Excellent length",
+            "length": 16
+          },
+          "complexity": {
+            "score": 100,
+            "feedback": "High complexity"
+          },
+          "uniqueness": {
+            "score": 100,
+            "feedback": "Appears unique"
+          }
+        },
+        "entropy": 104.8734216268422,
+        "composition": {
+          "has_lowercase": true,
+          "has_uppercase": true,
+          "has_digits": true,
+          "has_symbols": true,
+          "has_spaces": false,
+          "lowercase_count": 10,
+          "uppercase_count": 2,
+          "digit_count": 3,
+          "symbol_count": 1
+        },
+        "weaknesses": [],
+        "suggestions": [
+          "Use a unique password for each account",
+          "Enable two-factor authentication where possible"
+        ],
+        "score": 100,
+        "risk_level": "Low"
+      },
+      "breach_data": {
+        "is_breached": true,
+        "breach_count": 2,
+        "risk_level": "Low"
+      },
+      "timestamp": "2025-08-27T11:31:14.059156"
+    }
+  ]
+}
